@@ -1,6 +1,5 @@
 Dina cssfiler i denna mapp
 
-/*Home*/
 #wrapper{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
@@ -11,7 +10,7 @@ Dina cssfiler i denna mapp
     'ft1 ft1 ft2 ft2' 
 }
 
-/*Associates*/
+/*Asso*/
 #asswrapper{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
@@ -22,7 +21,7 @@ Dina cssfiler i denna mapp
     'mn mn mn mn'
     'ft1 ft1 ft2 ft2' 
 }
-/*sign in*/
+
 #inwrapper{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
@@ -33,7 +32,6 @@ Dina cssfiler i denna mapp
     'ft1 ft1 ft2 ft2' 
 }
 
-/*sign up*/
 #upwrapper{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
