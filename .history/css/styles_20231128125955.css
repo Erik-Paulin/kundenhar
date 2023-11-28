@@ -1,0 +1,13 @@
+Dina cssfiler i denna mapp
+
+#wrapper{
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'mn mn mn as'
+    '. . . .'
+    'ft1 ft1 ft2 ft2'
+    
+}

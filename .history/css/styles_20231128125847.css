@@ -1,0 +1,25 @@
+Dina cssfiler i denna mapp
+
+#wrapper{
+    
+        gap: 5px 5px;
+        border-radius: 10px;
+        display: grid;
+        width: 100%;
+        height: auto;
+        background-color: rgb(34, 33, 33);
+        padding: 1.5rem;
+        align-content: space-around;
+        justify-content: center;
+        background-image: url("img/house.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 10% 2rem auto 20rem auto;
+        grid-template-areas: 
+        'hd1 hd1 hd1 hd1' 
+        'nv nv nv nv'
+        'mn mn mn as'
+        '. . . .'    'ft1 ft1 ft2 ft2'
+    
+}
