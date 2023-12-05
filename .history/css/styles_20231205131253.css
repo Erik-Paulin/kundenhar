@@ -1,0 +1,96 @@
+Dina cssfiler i denna mapp
+
+/*Home*/
+#howrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'homn homn homn hoas'
+    'ft1 ft1 ft2 ft2' 
+}
+
+/*Associates*/
+#asswrapper{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 10% 5% 65% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'asmn asmn asmn asmn'
+    'asmn asmn asmn asmn'
+    'ft1 ft1 ft2 ft2' 
+}
+
+.Associates{
+    display: grid;
+    gap: 5px;
+    grid-area: asmn;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    'one two'
+    'three four'
+}
+
+.one{
+    grid-area: one;
+    background-color: aqua;
+    box-shadow: 5px;
+    border-radius: 5px;
+}
+
+.two{
+    grid-area: two;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px ;
+    border-radius: 5px;
+}
+
+.three{
+    grid-area: three;
+    background-color: aqua;
+    box-shadow: 5px;
+    border-radius: 5px;
+}
+
+.four{
+    grid-area: four;
+    background-color: aqua;
+    box-shadow: 5px;
+    border-radius: 5px;
+}
+
+
+/*sign in*/
+#inwrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'inmn inmn inmn inmn'
+    'ft1 ft1 ft2 ft2' 
+}
+
+
+
+
+/*sign up*/
+#upwrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'upmn upmn upmn upmn'
+    'ft1 ft1 ft2 ft2' 
+}

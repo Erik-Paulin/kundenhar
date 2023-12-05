@@ -1,0 +1,47 @@
+Dina cssfiler i denna mapp
+
+/*Home*/
+#howrapper{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'mn mn mn as'
+    'ft1 ft1 ft2 ft2' 
+}
+
+/*Associates*/
+#asswrapper{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'mn mn mn mn'
+    'mn mn mn mn'
+    'ft1 ft1 ft2 ft2' 
+}
+
+main
+/*sign in*/
+#inwrapper{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'mn mn mn as'
+    'ft1 ft1 ft2 ft2' 
+}
+
+/*sign up*/
+#upwrapper{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    'hd1 hd1 hd1 hd1' 
+    'nv nv nv nv'
+    'mn mn mn as'
+    'ft1 ft1 ft2 ft2' 
+}
