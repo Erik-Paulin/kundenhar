@@ -14,10 +14,7 @@ Dina cssfiler i denna mapp
     'ft1 ft1 ft2 ft2' 
 }
 
-nav{
-    grid-area: nv;
-    background-color:yellow;
-}
+nav{}
 
 /*Associates*/
 #asswrapper{

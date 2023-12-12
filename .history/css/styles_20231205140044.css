@@ -3,8 +3,6 @@ Dina cssfiler i denna mapp
 /*Home*/
 #howrapper{
     display: grid;
-    height: 100vh;
-    width: 100%;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
@@ -12,11 +10,6 @@ Dina cssfiler i denna mapp
     'nv nv nv nv'
     'homn homn homn hoas'
     'ft1 ft1 ft2 ft2' 
-}
-
-nav{
-    grid-area: nv;
-    background-color:yellow;
 }
 
 /*Associates*/
@@ -92,14 +85,14 @@ nav{
 
 .about{
     grid-area: abt;
-    background-color: #6e4b11;
+    background-color: #25f312;
     box-shadow: 5px 5px 5px #f39d125e;
     border-radius: 5px;
 }
 
 .contact{
     grid-area: cnt;
-    background-color: #6e4b11;
+    background-color: #12f39d;
     box-shadow: 5px 5px 5px #f39d125e;
     border-radius: 5px;
 }
@@ -107,8 +100,6 @@ nav{
 /*sign in*/
 #inwrapper{
     display: grid;
-    height: 100vh;
-    width: 100%;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
@@ -124,8 +115,6 @@ nav{
 /*sign up*/
 #upwrapper{
     display: grid;
-    height: 100vh;
-    width: 100%;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 

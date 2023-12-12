@@ -3,8 +3,6 @@ Dina cssfiler i denna mapp
 /*Home*/
 #howrapper{
     display: grid;
-    height: 100vh;
-    width: 100%;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
@@ -14,37 +12,28 @@ Dina cssfiler i denna mapp
     'ft1 ft1 ft2 ft2' 
 }
 
-nav{
-    grid-area: nv;
-    background-color:yellow;
-}
-
 /*Associates*/
 #asswrapper{
     display: grid;
     height: 100vh;
     width: 100%;
     gap: 10px;
-    grid-template-columns: 5% 45% 45% 5%;
-    grid-template-rows: 10% 5% 35% 35% 15%;
+    grid-template-columns: 10% 5% 65% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-areas: 
     'hd1 hd1 hd1 hd1' 
     'nv nv nv nv'
-    'i asmn asmn u'
-    'i asmn asmn u'
-    'i ft ft u' 
+    'asmn asmn asmn asmn'
+    'asmn asmn asmn asmn'
+    'ft1 ft ft ft2' 
 }
-.i{
-    grid-area: i;
-}
-.u{
-    grid-area: u;
-}
+
 .Associates{
     display: grid;
     gap: 5px;
     grid-area: asmn;
     height: 100%;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
     grid-template-areas: 
@@ -55,28 +44,28 @@ nav{
 .one{
     grid-area: one;
     background-color: #f39c12;
-    box-shadow: 10px 10px 5px #f39d125e;
+    box-shadow: 5px 5px 5px #f39d125e;
     border-radius: 5px;
 }
 
 .two{
     grid-area: two;
     background-color: #f39c12;
-    box-shadow: 10px 10px 5px #f39d125e;
+    box-shadow: 5px 5px 5px #f39d125e;
     border-radius: 5px;
 }
 
 .three{
     grid-area: three;
     background-color: #f39c12;
-    box-shadow: 10px 10px 5px #f39d125e;
+    box-shadow: 5px 5px 5px #f39d125e;
     border-radius: 5px;
 }
 
 .four{
     grid-area: four;
     background-color: #f39c12;
-    box-shadow: 10px 10px 5px #f39d125e;
+    box-shadow: 5px 5px 5px #f39d125e;
     border-radius: 5px;
 }
 
@@ -85,6 +74,7 @@ nav{
     display: grid;
     gap: 5px;
     height: 100%;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     'abt cnt'
@@ -92,14 +82,14 @@ nav{
 
 .about{
     grid-area: abt;
-    background-color: #6e4b11;
+    background-color: #25f312;
     box-shadow: 5px 5px 5px #f39d125e;
     border-radius: 5px;
 }
 
 .contact{
     grid-area: cnt;
-    background-color: #6e4b11;
+    background-color: #12f39d;
     box-shadow: 5px 5px 5px #f39d125e;
     border-radius: 5px;
 }
@@ -107,8 +97,6 @@ nav{
 /*sign in*/
 #inwrapper{
     display: grid;
-    height: 100vh;
-    width: 100%;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
@@ -124,8 +112,6 @@ nav{
 /*sign up*/
 #upwrapper{
     display: grid;
-    height: 100vh;
-    width: 100%;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
