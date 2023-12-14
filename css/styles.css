@@ -10,8 +10,8 @@
     grid-template-areas: 
     'hd1 hd1 hd1 hd1' 
     'nv nv nv nv'
-    'homn homn homn hoas'
-    'ft ft ft ft' 
+    'mn mn mn as'
+    'ft ft ft as' 
 }
 
 a{  
@@ -21,6 +21,12 @@ a{
 a:hover{
     color: #f39c12;
 }
+
+header{
+    grid-area: hd1;
+    text-align: center;
+}
+
 
 nav{
     grid-area: nv;
@@ -34,6 +40,32 @@ nav{
     align-items: center;
 }
 
+main{
+    grid-area: mn;
+    display: flex;
+    border-style: solid;
+    border-color: #f39c12;
+    border-width: 5px;
+    background-color: #ffff;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section{
+    grid-area: sc;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #f39c12;
+    border-width: 5px;
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: start;
+}
+
 
 /*Associates*/
 #asswrapper{
@@ -43,9 +75,9 @@ nav{
     gap: 30px;
     grid-template-columns: 10% 40% 40% 10%;
     grid-template-rows: 10% 5% 35% 35% 15%;
-    grid-template-areas: 
+    grid-template-areas:
+    'nv nv nv nv' 
     'hd1 hd1 hd1 hd1' 
-    'nv nv nv nv'
     'i asmn asmn u'
     'i asmn asmn u'
     'i ft ft u' 
@@ -61,6 +93,7 @@ nav{
     gap: 15px;
     grid-area: asmn;
     height: 100%;
+    border-style: none;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
     grid-template-areas: 
@@ -141,10 +174,10 @@ nav{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 10% 5% 70% 15%;
     grid-template-areas: 
-    'hd1 hd1 hd1 hd1' 
     'nv nv nv nv'
-    'inmn inmn inmn inmn'
-    'ft ft ft ft'
+    'hd1 hd1 hd1 hd1' 
+    'i mn mn u'
+    'i ft ft u' 
 
 }
 
@@ -160,8 +193,27 @@ nav{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 10% 5% 70% 15%;
     grid-template-areas: 
-    'hd1 hd1 hd1 hd1' 
     'nv nv nv nv'
-    'upmn upmn upmn upmn'
-    'ft ft ft ft' 
+    'hd1 hd1 hd1 hd1' 
+    'i mn mn u'
+    'i ft ft u'  
+}
+
+
+.email{
+    border-style: solid;
+    border-color: #f39c12;
+    border-width: 5px;
+    background-color: #ffff;
+    border-radius: 5px;
+    
+}
+
+.password{
+    border-style: solid;
+    border-color: #f39c12;
+    border-width: 5px;
+    background-color: #ffff;
+    border-radius: 5px;
+
 }
