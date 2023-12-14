@@ -43,13 +43,15 @@ nav{
 main{
     grid-area: mn;
     display: flex;
+    flex-direction: column;
     border-style: solid;
     border-color: #f39c12;
     border-width: 5px;
     background-color: #ffff;
     border-radius: 5px;
+    padding: 30px;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
 }
 
 section{
