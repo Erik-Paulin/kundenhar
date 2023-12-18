@@ -15,8 +15,8 @@
 }
 
 .header{
-    display:flex;
-    background-image: url();
+    display:flex
+    background-image: url(Money.jpg);
 }
 
 a{  
