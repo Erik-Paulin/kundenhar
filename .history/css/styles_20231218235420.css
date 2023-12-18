@@ -13,6 +13,12 @@ a:hover{
     text-decoration: underline;
 }
 
+header{
+    grid-area: hd1;
+    text-align: center;
+}
+
+
 nav{
     grid-area: nv;
     display: flex;
@@ -24,6 +30,7 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+
 
 /*Home*/
 #howrapper{
@@ -48,8 +55,6 @@ nav{
 
 }
 
-
-
 .homn{
     grid-area: homn;
     font-size: 30px;
@@ -67,6 +72,7 @@ nav{
 }
 
 
+
 /*Associates*/
 #asswrapper{
     display: grid;
@@ -75,24 +81,20 @@ nav{
     gap: 30px;
     grid-template-columns: 10% 40% 40% 10%;
     grid-template-rows: 10% 5% 35% 35% 15%;
-    grid-template-areas: 
+    grid-template-areas:
+    'nv nv nv nv' 
     'hd1 hd1 hd1 hd1' 
-    'nv nv nv nv'
     'i asmn asmn u'
     'i asmn asmn u'
     'i ft ft u' 
 }
-.i{
-    grid-area: i;
-}
-.u{
-    grid-area: u;
-}
+
 .Associates{
     display: grid;
     gap: 15px;
     grid-area: asmn;
     height: 100%;
+    border-style: none;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
     grid-template-areas: 
@@ -140,6 +142,7 @@ nav{
     grid-area: ft;
     display: grid;
     gap: 15px;
+    padding: 20px;
     height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -173,10 +176,12 @@ nav{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 10% 5% 70% 15%;
     grid-template-areas: 
-    'hd1 hd1 hd1 hd1' 
     'nv nv nv nv'
     'i inmn inmn u'
     'ft ft ft ft'
+    'hd1 hd1 hd1 hd1' 
+    'i mn mn u'
+    'i ft ft u' 
 
 }
 
@@ -196,7 +201,6 @@ nav{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 10% 5% 70% 15%;
     grid-template-areas: 
-    'hd1 hd1 hd1 hd1' 
     'nv nv nv nv'
     'i upmn upmn u'
     'ft ft ft ft' 
@@ -207,6 +211,7 @@ nav{
     display: flex;
     align-self: center;
     justify-self: center;
+    align-items
 
 }
 
@@ -282,6 +287,4 @@ form {
       width: 100%;
     }
   }
-  
-
 

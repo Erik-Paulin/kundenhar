@@ -9,11 +9,17 @@
   <body>
     <div id="upwrapper">
       <main class="upmn">
-        <section >
-          <form action="action_page.php" method="post">          
+
+        <section>
+
+          <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+          
             <div class="container">
-              <label for="uname"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="uname" required>
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
           
               <label for="psw"><b>Password</b></label>
               <input type="password" placeholder="Enter Password" name="psw" required>
@@ -25,12 +31,15 @@
             </div>
           
             <div class="container" style="background-color:#f1f1f1">
-              <button type="button" class="cancelbtn"><a href="index.html">Cancel</a> </button>
+              <button type="button" class="cancelbtn">Cancel</button>
               <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
           </form>
+
         </section>
+
       </main>
+
     </div>
   </body>
 </html>
