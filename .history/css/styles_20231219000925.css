@@ -141,7 +141,6 @@ nav{
     display: grid;
     gap: 15px;
     height: 100%;
-    text-align: center;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     'abt cnt'
